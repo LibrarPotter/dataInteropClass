@@ -2,10 +2,10 @@
 ini_set('display_errors', 'On');
 error_reporting(E_ALL | E_NOTICE);
 $hostname = "dany.simmons.edu";
-$username = "xxxx;
-$password = "xxxx";
+$username = "xxxx";
+$password = "xxx";
 $dbname = "xxxx";
-$table = "xxxx";
+$table = "sss";
 #end login info#OPENS CONNECTION OR REPORTS ERROR
 $con = mysqli_connect($hostname, $username, $password, $dbname);
 $db = mysqli_select_db($con ,$table);
