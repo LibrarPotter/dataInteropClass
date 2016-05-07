@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>LIS 531 Z interface</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+</head>
+<body class = "container-fluid">
+<header class = "jumbotron container"> <h1>Item Insert/Recall</h1></header>
+<form method="post" class="form-horizontal">
+	<div class="form-group">
+		<label  class="col-sm-2 control-label">Creator Name </label>
+		<div class="col-sm-10">
+		<input type="text" CLASS="form-control" name="creatorName" maxlength=5 placeholder="Enter Creator Name">
+	</div>
+</div>
+<div class="form-group">
+		<label class="col-sm-2 control-label">Creator Role </label>
+		<div class="col-sm-10">
+		<input type="text" CLASS="form-control" name="creatorRole" maxlength=30 placeholder="Creator Role">
+	</div>
+</div>
+<div class="form-group">
+		<label  class="col-sm-2 control-label">Title of Object </label>
+		<div class="col-sm-10">
+		<input type="text" CLASS="form-control" name="titleofobject" maxlength=30 placeholder="Title of Object">
+	</div>
+</div>
+<div class="form-group">
+		<label  class="col-sm-2 control-label">Format</label>
+		<div class="col-sm-10">
+		<input type="text" CLASS="form-control" name="format" maxlength=30 placeholder="Enter Format">
+	</div>
+</div>
+
+<div class="form-group">
+		<label  class="col-sm-2 control-label">Creation Date </label>
+		<div class="col-sm-10">
+		<input type="text" CLASS="form-control" name="creationdate" maxlength=2 placeholder="Enter Creation Date">
+	</div>
+</div>
+<div class="form-group">
+		<label  class="col-sm-2 control-label">Rights Statement </label>
+		<div class="col-sm-10">
+		<input type="text" CLASS="form-control" name="rightsstatment" maxlength=12 placeholder="Enter Rights Statement">
+	</div>
+</div>
+<div class="form-group">
+		<label  class="col-sm-2 control-label">Subject </label>
+		<div class="col-sm-10">
+		<input type="text" CLASS="form-control" name="subject" maxlength=12 placeholder="Enter Salesperson Subject">
+	</div>
+</div>
+
+<!--<div class="form-group">
+		<label  class="col-sm-2 control-label">Location</label>
+		<div class="col-sm-10">
+		<input type="text" CLASS="form-control" name="rightsstatment" maxlength=12 placeholder="Enter Salesperson Zip Code">
+	</div>
+</div>-->
+
+<div class="form-group">
+	<div class="col-sm-offset-2">
+<input class="btn btn-info" type="submit" value="Insert  Data" formaction="./input.php"> 
+<input class="btn btn-info" type="submit" value="Display Data" formaction="./output.php">
+	</div>
+</div>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
