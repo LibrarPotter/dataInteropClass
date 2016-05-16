@@ -1,0 +1,3 @@
+Query to add data to my MySQL database:
+LOAD DATA LOCAL INFILE 'C:\\Users\\Megan\\Documents\\dataInterop\\gitHubRepo\\GERRY_ITEMS_Master_3_31_16-MP_cleaned.tsv' INTO TABLE datainteropclass.datafiles FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
+
